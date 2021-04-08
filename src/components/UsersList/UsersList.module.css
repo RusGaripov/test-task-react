@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Inter";
+
+  src: url("../../fonts/Inter-Black.ttf");
+  src: url("../../fonts/Inter-Bold.ttf");
+  src: url("../../fonts/Inter-ExtraBold.ttf");
+  src: url("../../fonts/Inter-ExtraLight.ttf");
+  src: url("../../fonts/Inter-Light.ttf");
+  src: url("../../fonts/Inter-Medium.ttf");
+  src: url("../../fonts/Inter-Regular.ttf");
+  src: url("../../fonts/Inter-SemiBold.ttf");
+  src: url("../../fonts/Inter-Thin.ttf");
+}
+
+body{
+  padding:0;
+  margin:0
+}
+.container {
+  max-width: 1440px;
+  background: #f7f7f7;
+  margin:0 auto;
+  position: relative;
+}
+
+.navbar {
+  max-width: 1440px;
+  height: 47px;
+  background: #ffffff;
+  margin-bottom: 48px;
+  padding-left: 48px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: row;
+}
+
+.all {
+  width: 47px;
+  height: 47px;
+  margin-right: 36px;
+}
+
+.activeLink {
+  border-bottom: 3px solid #6979f8;
+
+  border-radius: 200px 200px 0px 0px;
+}
+
+.activeLink .all__text {
+  color: #1a051d;
+}
+
+.activeLink .blocked__text {
+  color: #1a051d;
+}
+.activeLink .active__text {
+  color: #1a051d;
+}
+
+.all__text {
+  margin: 16px 11px 13px 11px;
+  width: 24px;
+  height: 18px;
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #d0c9d6;
+}
+
+.all:hover .all__text {
+  text-decoration-color: #6979f8;
+  color: #d0c9d6;
+}
+
+.blocked {
+  width: 118px;
+  height: 47px;
+  padding: 0;
+  margin: 0;
+}
+.blocked__text {
+  margin: 16px 0px 13px 0px;
+
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #d0c9d6;
+}
+
+.blocked:hover .blocked__text {
+  text-decoration-color: #6979f8;
+  color: #d0c9d6;
+}
+
+.active {
+  width: 63px;
+  height: 47px;
+  margin-left: 36px;
+}
+.active__text {
+  margin: 16px 0px 13px 0px;
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #d0c9d6;
+}
+
+.active:hover .active__text {
+  text-decoration-color: #6979f8;
+  text-decoration-thickness: 2px;
+  color: #d0c9d6;
+}
+
+.list {
+  list-style: none;
+}

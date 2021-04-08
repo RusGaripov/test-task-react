@@ -1,0 +1,39 @@
+
+.ellipse1{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 644px;
+    top: 504px;
+    
+    /* Color/Accent/1 - Blue */
+    
+    background: #6979F8;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.ellipse2{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 708px;
+    top: 500px;
+    
+    /* Color/Accent/1 - Blue */
+    border-radius: 50%;
+    background: #6979F8;
+}
+
+.ellipse3{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 780px;
+    top: 504px;
+    
+    /* Color/Accent/1 - Blue */
+    border-radius: 50%;
+    background: #6979F8;
+    opacity: 0.6;
+}

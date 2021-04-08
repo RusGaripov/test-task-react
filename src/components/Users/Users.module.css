@@ -1,0 +1,125 @@
+.container {
+  list-style-type: none;
+  border-radius: 4px;
+  margin-top: 48px;
+  padding-bottom: 18px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.user {
+  /* width: 1344px; */
+  height: 80px;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 18px;
+
+  background: #ffffff;
+  position: relative;
+}
+
+
+.rightBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.status {
+  margin: 30px 0px 30px 54px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.selectCss {
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  border-style: none;
+  color: #3f3356;
+  outline: none;
+}
+
+.selectedStatus {
+  width: 202px;
+  appearance: none;
+  color: #3f3356;
+  font-family: "Inter-Regular";
+}
+.arrow {
+  position: absolute;
+  width: 10px;
+  height: 6px;
+  margin: 7px 0px 37px 138px;
+}
+
+.notStatus {
+  color: #d0c9d6;
+}
+
+select {
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px !important;
+  line-height: 20px !important ;
+  display: flex;
+  align-items: center;
+  border-style: none;
+  outline: none;
+
+}
+select:active,
+select:focus {
+  outline: none;
+}
+
+.lastUpdatedAt {
+  margin: 30px 0 30px 0;
+}
+.lastUpdatedAt__text {
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+
+  color: #a8a8a8;
+}
+.auth {
+  position: absolute;
+  top: 84px;
+  right: 20px;
+  display: flex;
+  width: 240px;
+  height: 64px;
+  margin-top: -60px;
+  background: #ffffff;
+  box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+}
+
+.auth__logo {
+  width: 48px;
+  height: 48px;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.auth__text {
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #1a051d;
+  margin: 22px 14px 22px 12px;
+}
